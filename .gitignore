@@ -1,0 +1,30 @@
+# Dependências
+node_modules/
+**/node_modules/
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Compilação
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.tmp
+*.swp
